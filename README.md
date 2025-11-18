@@ -38,6 +38,10 @@
 
 
 
+6\. Написан скрипт для тестирования
+
+
+
 
 
 ###### **Стек технологий**
@@ -76,7 +80,8 @@ Python, Pandas, NumPy, Scikit-learn, XGBoost, FastAPI.
 
 
 
-5\. README с документацией
+5\. Documentation с документацией
 
 
+6\. test_predict.py файл для тестирования со скриптом
 

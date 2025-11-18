@@ -8,12 +8,12 @@ class Preprocessor:
 
     def transform(self, data: pd.DataFrame):
 
-        df = data.copy()
+        #df = data.copy()
+        
+        df = data.fillna(0)
 
-        df = df.fillna(0)
-
-        # Так как у нас есть OneHotEncoder настроен на игнорирование неизвестной категории, то можно закомментировать 2 следущие строчки
-        #df["Gender"] = df["Gender"].str.replace("Male","0.0").str.replace("Female","1.0")
+        
+        #df["Gender"] = df["Gender"].str.replace("Male","1.0").str.replace("Female","0.0")
         #df = df.query('Gender != "1.0" and Gender != "0.0"')
 
         df[[
